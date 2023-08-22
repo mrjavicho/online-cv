@@ -3,263 +3,203 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Javier Fernando Huamanchumo Arauco
+    tagline: Senior Software Developer
+    avatar: portrait.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: javier.huamanchumo@gmail.com
+    phone: +34 640606591
+    timezone: Spain (CET)
+    citizenship:    
+    linkedin: jfha
+    github: mrjavicho            
+    twitter: '@mr_javicho'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Spanish
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Cinema
           link:
 
-        - item: Snowboarding
+        - item: Music
           link:
 
-        - item: Cooking
+        - item: Science
           link:
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      I began my career as a professional software developer 9 years ago. 
+      Throughout this time, I have worked on a wide range of projects spanning various industries and technologies. 
+      
+      My experience includes developing banking applications, creating data reports for drilling operations, or designing logistic delivery tools. 
+      I've worked with diverse technologies, including WindowsPhone, Android, iOS, WPF, ADO.net, .NET Core, and, notably, Xamarin and Xamarin.Forms. 
 
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      I pride myself on being a problem solver, steadfast in the belief that "everything is possible." 
+      In the early years of my career, I often met challenges with sheer effort and long hours. As my experience has grown, my approach has shifted to dissecting problems, proposing multiple solutions, testing different strategies, and even designing custom tools to achieve my objectives. 
+      
+      I am passionate about software development, and I am always eager to learn new skills. 
+      Central to my philosophy is the principle of "learning by doing", and I am committed to continuous growth and evolution in my profession.      
+current-position:
+    title: Current activities
+    summary: |
+      As the tech leader of a group of four developers, I am responsible for addressing critical issues, proposing ideas, and assisting the team. 
+      
+      My role involves maintaining a steady stream of urgent and important topics to address, allowing us to focus on stability, simplicity, and testability.
+      I create diagrams for new features and analyze the impact of upcoming change requests, sometimes suggesting new internal tools or libraries. 
+      
+      Code-wise, I'm usually in charge of core functionality, creating PoCs, adding new tests, and developing scripts, libraries and tools. 
+      
+      Finally, I periodically stablish milestones for the mobile area, covering all projects, internal libraries, and tools.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: C#
+        level: 90%
+      
+      - name: Swift
+        level: 60% 
 
-      - name: Angular
-        level: 98%
+      - name: Kotlin
+        level: 30%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Dart
+        level: 30%          
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Xamarin & Xamarin.Forms
+        level: 90%      
 
-      - name: Sketch & Photoshop
+      - name: Native iOS
         level: 60%
+
+      - name: Native Android
+        level: 30%
+
+      - name: Flutter
+        level: 20%
+
+      - name: Teamwork
+        level: 90%      
+
+      - name: Leadership
+        level: 80%
+
+      - name: Communication skills
+        level: 80%
+
+
+education:
+    title: Education
+    info:
+      - degree: VET Web Applications Development
+        university: I.E.S San Juan de la Cruz, Madrid
+        time: 2012-2014
+        details: |
+          After some bad experiences in college, I chose to enroll in a vocational training program to quickly launch my career. 
+          I was highly motivated to learn and work in a field that I was passionate about. 
+          Throughout the program, I acquired fundamental skills in web development technologies, including PHP, HTML, JS, CSS, and MySQL.         
+
+      - degree: Master's in Web Application Development using C#
+        university: Instituto Tajamar, Madrid
+        time: 2013 - 2014
+        details: |
+          In 2014, I devoted additional study time to complete a master's course in web application development using C#. 
+          During the course, I was introduced to technologies such as ASP.NET MVC, Azure, jQuery, and Blazor, as well as techniques for consuming REST and SOAP web services. At the time, the Universal Windows Platform (UWP) was gaining traction, so we also covered the basics of XAML. 
+          Additionally, I created my first applicaction using Xamarin.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Mobile Team Lead
+        time: 2020 - Present
+        company: Zetes Multicom, Madrid
+        details: |          
+          Since joining Zetes, I've been involved in large-scale, thriving projects. 
+          The applications we develop for various logistics areas have achieved great success and, as a result, require constant evolution.         
+          To make our products more stable, we have invested significant effort in enhancing documentation, analysis, component reusability, and more. 
+
+          Working with manufacturers such as Honeywell, Zebra, and Datalogic is a key part of our applications, as they provide barcode scanning and printing functionalities. 
+          During my time here, we have addressed a number of challenges, including targeting new Android versions, UI customization, adding barcode recognition for BYOD clients, and successfully addressing our clients' needs with versatile, one-size-fits-all solutions.
+
+
+      - role: Mobile Tech Lead
+        time: 2020 - 2020
+        company: Atmira Consulting, Barcelona
+        details: |
+          I was hired to lead the mobile team that would work on a new mobile app for one of the biggest banks in Andorra.
+          During a six month period, me and and other three developers managed to overcome very complicated legacy code, create an iOS version almost from scratch,
+          introduce CI/CD practices, integrate third party libraries for digital signing and onboarding, and finally getting the first versions ready for testing on AppStore and PlayStore.
+            
+      - role: Senior mobile developer / Tech Lead
+        time: 2017 - 2020
+        company: Bravent, Madrid
+        details: |
+          During my later years at Bravent, I was promoted to Senior Developer and subsequently to Tech Lead. 
+          As with everything at Bravent, these new roles demanded a lot of hard work and learning on my part. 
+          I began taking on the responsibility for entire projects, which involved dealing with clients, estimates, deadlines, and a wide range of challenges. 
+          
+          I gained valuable experience in interpersonal skills, problem-solving with a positive attitude, and leading by example. 
+          I initiated regular code review sessions and small group discussions to identify issues in our ongoing projects. 
+          As a result, we were able to establish a set of best practices, align our ideas, and support each other more effectively.                     
+
+projects:
+    title: Projects
+    intro: >
+      I enjoy working on different projects to break up the routine. Over the years, I have collaborated with various teams to challenge myself and acquire new skills.
+    assignments:
+      - title: Fitkeeper
+        link: "https://fitkeeperapp.com/es/"
+        tagline: |
+          A workout partner for iOS. Applicaction for iPhones that allows you to keep track of your workout entries, see your progress, and create workout routines.          
+          Native iOS using Swift, InterfaceBuilder and CoreData.
+
+      - title: Estratagema
+        link: "https://www.estratagema.es/"
+        tagline: |
+          Worked on a series of pharmaceutical applications, including catalogs, courses, and drug information for physicians. 
+          All of these applications were developed using Xamarin.Forms for both iOS and Android devices
+
+      - title: SwartDev
+        link: "https://www.swartdev.com/"
+        tagline: |
+          I have worked on a wide variety of applications and technologies, often helping to solve small errors and contributing to new developments. 
+          This includes working with ASP.NET, SQL Server, SwiftUI, NFC and OCR on iOS, MAUI, Fastlane, and Bash scripting.
+
+oss:
+    title: OSS Contributions
+    intro: >
+        I don't contribute to any large OSS project, but at one point I thought it would be nice to share some of the code that I created for myself. 
+        A couple of those projects have made it to GitHub, and they are as follows:
+
+    contributions:
+      - title: MvxPopUpNavigation
+        link: "https://github.com/mrjavicho/MvxPopupNavigation"
+        tagline: "Attribute that allows using Rg.Plugins.PopupPage with MvvmCross navigation service"
+
+      - title: LazyBarcodeGenerator
+        link: "https://github.com/mrjavicho/Lazy-barcodes-generator"        
+        tagline: "A simple yet efficient barcode generator, particularly useful for those who need to test a large amount of barcodes throughout the day."
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
